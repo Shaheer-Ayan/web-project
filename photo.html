@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fitness website</title>
+</head>
+<link rel ="stylesheet" href="https://fonts.google.com/specimen/Fira+Sans?preview.layout=grid">
+<link rel="stylesheet" href="fitness/style.css">
+<style>
+    body{
+        font-family:'Franklin Gothic Medium', cursive;
+        color: white;
+        margin:0px;
+        padding:auto;
+        background:url('image/Gokoo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left { position: absolute;
+        left: 0px;
+        top: 0px;
+        display:inline-block; 
+        
+       
+        padding: 0px 90px;
+
+
+
+    }
+    .left img{
+        width: 160px;
+    }
+    
+    .left div{
+        line-height: 80px;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', cursive;
+        color: orange;
+        font-size: 40px;
+
+        } 
+
+
+
+
+
+
+
+    .mid{display: block;
+        width: 98%; ;
+        margin: 0px  auto;
+        
+        background-color: black;
+        
+        padding: 0px 50px;
+
+
+
+    }
+
+
+
+    .navbar{color: white;
+        display:inline-block;
+        padding: 82px 850px;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 70px;
+        padding: 20px 80px;
+    }
+
+.navbar li a {color: white;
+    text-decoration: none;
+    padding: 20px 35px;
+    color:orange 
+}
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+}
+
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .photo {
+            margin: 50px 80px;
+       
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            width: 40%;
+            display: inline-block;
+            padding: 180px 55px;
+        }
+        .photo img {
+            max-width: 10000px;
+            height: 1000px;
+            display: block;
+        }
+        .photo:hover {
+            transform: scale(1.05);
+        }
+</style>
+<body>
+    <div class = "left">
+        <img src="image/Goku.png" alt="">
+        <div>Ultra Instinct</div>
+
+
+
+    </div>
+
+        <div class="mid"> 
+            <ul class="navbar">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="workout.html"> Workout</a></li>
+                <li> <a href="nutrition.html"> Nutrition</a></li>
+                <li> <a href="photo.html"> Photo</a> </li>
+                <li> <a href="contact.html"> Contact</a> </li>
+                
+            </ul>
+        </div>
+
+        div class="gallery">
+    <div class="photo">
+        <img src="image/imgone.jpg" alt="Photo 1">
+    </div>
+    <div class="photo">
+        <img src="image/imgsix.jpg" alt="Photo 2">
+    </div>
+    <div class="photo">
+        <img src="image/imgfive.png" alt="Photo 3">
+    </div>
+    <div class="photo">
+        <img src="image/imgeight.jpg" alt="Photo 4">
+    </div>
+    <div class="photo">
+        <img src="image/imgtwo.png" alt="Photo 5">
+    </div>
+    <div class="photo">
+        <img src="image/imgseven.jpg" alt="Photo 6">
+    </div>
+</div>
+</body>
+</html>
